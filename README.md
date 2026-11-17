@@ -62,31 +62,22 @@ The program will scan the target directory and move files into their respective 
 
 ## 📋 Project Scope
 
-This is a first-version file organization tool.
+This is the first version of the Directory Organizer, focused on automating file organization using Python.
 
-**Included:**
+### Current Features
 - Extension-based file categorization.
-- File movement and folder creation.
+- Automatic category folder creation.
+- File movement using `shutil`.
 - Duplicate filename handling.
 - Exception handling.
 - Organization report generation.
+- Hardcoded target directory configuration.
 
-**Not included in this version:**
+### Planned Improvements
+- Dynamic target directory selection.
 - Recursive directory scanning.
-- Automatic Downloads folder monitoring.
-- Background file organization.
+- Improved user interaction and configuration options.
 
-## 🎯 Learning Objectives
+## 🚧 Future Development
 
-This project was built to practice:
-
-- Working with files and directories.
-- Using Python's built-in modules.
-- Understanding dictionaries and conditional statements.
-- Implementing loops and helper functions.
-- Handling exceptions.
-- Automating repetitive file management tasks.
-
-## 👨‍💻 Author
-
-Developed as part of my Python learning and practical automation projects.
+The current version uses a predefined directory path in the source code. Future updates will introduce dynamic path selection, allowing users to choose which directory they want to organize without modifying the source code.
